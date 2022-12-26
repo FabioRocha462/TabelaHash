@@ -58,7 +58,7 @@ for i in range(numeroVezes):
         lista[j] = int(h)
         j= j+1
     listaenv=[]
-    for a in range(len(lista)+fator):
+    for a in range(fator):
         listaenv.append(0)
     dict = {}
     for b in lista:
