@@ -33,11 +33,11 @@ def printListaHash(listas,listadedict):
                     LE = dict[index]
                     print(str(index) + "->" + numero + "-> " + LE.printList() + "\ ")
                 else:
-                    print(str(index) + "->" + numero + "-> \ ")
+                    print(str(index) + "->" + numero + "->\ ")
             else:
-                print(str(index) + "-> \ ")
+                print(str(index) + "->\ ")
             index = index + 1
-        print("------------------")
+        print(" ")
         index_dict = index_dict + 1
 
 print("ENTRADA")
@@ -66,6 +66,7 @@ for i in range(numeroVezes):
     listaDelista.append(listaenv)
     listaDedict.append(dict)
 
-    
+print(" ")
+
 print("SAÍDA")
 printListaHash(listaDelista,listaDedict)
